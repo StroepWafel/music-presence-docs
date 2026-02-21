@@ -31,6 +31,7 @@ Configuration is in `zensical.toml`. Key options include `site_name`, `site_url`
 Replace `favicon.png` (or `favicon.ico`) in /docs/images for the site’s browser tab icon. The path is set in `zensical.toml` under `[project.theme]` → `favicon`.
 
 
+
 ---
 
 ## Publishing
