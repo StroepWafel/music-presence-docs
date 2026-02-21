@@ -1,6 +1,6 @@
 [project]
 site_name = "Discord Music Presence | Docs" 
-site_url = "https://example.com" 
+site_url = "https://stroepwafel.github.io/music-presence-docs/" 
 site_description = "Documentation for ungive/discord-music-presence"
 site_author = "Ungive & StroepWafel"
 copyright = "Ungive & StroepWafel"
