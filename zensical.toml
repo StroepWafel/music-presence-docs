@@ -1,0 +1,43 @@
+[project]
+site_name = "Discord Music Presence | Docs" 
+site_url = "https://example.com" 
+site_description = "Documentation for ungive/discord-music-presence"
+site_author = "Ungive & StroepWafel"
+copyright = "Ungive & StroepWafel"
+docs_dir = "docs"
+site_dir = "site"
+
+# Section icons: Zensical supports icons only per page (frontmatter), not for nav section titles.
+# Emojis in section names give a similar visual effect for categories.
+nav = [
+  {"Home" = "index.md"},
+  {"Getting started" = [
+    {"Installation" = "installation-instructions.md"},
+    {"Troubleshooting" = "troubleshooting.md"},
+    {"Supported media players" = "supported-media-players.md"}
+  ]},
+  {"Features" = [
+    {"Cover images proxy" = "cover-images-proxy.md"},
+    {"Self-hosted cover image proxy" = "self-hosted-cover-image-proxy.md"},
+    {"Automatic updates" = "automatic-updates.md"}
+  ]},
+  {"Reference" = [
+    {"Music Presence files" = "music-presence-files.md"},
+    {"Third-party integration" = "third-party-integration.md"}
+  ]},
+  {"Project" = [
+    {"Roadmap" = "roadmap.md"},
+    {"Contributors" = "contributors.md"}
+  ]},
+  {"Community" = [
+    {"How to contribute" = "contributing.md"},
+    {"Translations" = "translations.md"},
+    {"Support request template" = "support-template.md"}
+  ]}
+]
+
+dev_addr = "localhost:3000"
+
+# Favicon (browser tab icon). Put your image in docs/images/ (e.g. favicon.png or favicon.ico).
+[project.theme]
+favicon = "images/favicon.png"
